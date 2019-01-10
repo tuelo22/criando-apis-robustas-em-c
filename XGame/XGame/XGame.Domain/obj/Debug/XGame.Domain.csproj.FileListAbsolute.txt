@@ -1,6 +1,3 @@
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.Resources.Message.resources
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csproj.GenerateResource.cache
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csproj.CoreCompileInputs.cache
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\XGame.Domain.dll.config
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\XGame.Domain.dll
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\XGame.Domain.pdb
@@ -24,6 +21,10 @@ C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\Sy
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\System.Xml.ReaderWriter.dll
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\bin\Debug\en-US\prmToolkit.NotificationPattern.resources.dll
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csprojAssemblyReference.cache
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.Resources.Message.resources
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csproj.GenerateResource.cache
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csproj.CoreCompileInputs.cache
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.csproj.CopyComplete
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.dll
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Domain\obj\Debug\XGame.Domain.pdb

@@ -114,19 +114,25 @@
     <Compile Include="Migrations\201901070622475_MapeandoPlataforma.Designer.cs">
       <DependentUpon>201901070622475_MapeandoPlataforma.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901101420024_Atualizacao.cs" />
+    <Compile Include="Migrations\201901101420024_Atualizacao.Designer.cs">
+      <DependentUpon>201901101420024_Atualizacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\Map\MapPlataforma.cs" />
     <Compile Include="Persistence\Map\MapJogador.cs" />
+    <Compile Include="Persistence\Repositories\Base\RepositoryBase.cs" />
+    <Compile Include="Persistence\Repositories\RepositoryJogador.cs" />
     <Compile Include="Persistence\XGameContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transactions\IUnitOfWork.cs" />
+    <Compile Include="Transactions\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Persistence\Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\XGame.Domain\XGame.Domain.csproj">
       <Project>{3CAC9119-B064-460E-8332-898310F2257B}</Project>
@@ -139,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901070622475_MapeandoPlataforma.resx">
       <DependentUpon>201901070622475_MapeandoPlataforma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901101420024_Atualizacao.resx">
+      <DependentUpon>201901101420024_Atualizacao.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -29,7 +29,7 @@ namespace XGame.Domain.Arguments.Jogador
                 PrimeiroNome = entidade.Nome.PrimeiroNome,
                 UltimoNome = entidade.Nome.UltimoNome,
                 Id = entidade.Id,
-                NomeCompleto = entidade.ToString(),
+                NomeCompleto = entidade.Nome.PrimeiroNome + " " + entidade.Nome.UltimoNome,
                 Status = entidade.Status.ToString()
             };
         }

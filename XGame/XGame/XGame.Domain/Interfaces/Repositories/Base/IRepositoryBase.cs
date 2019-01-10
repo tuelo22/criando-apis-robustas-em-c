@@ -31,3 +31,4 @@ namespace XGame.Domain.Interfaces.Repositories.Base
 
         IEnumerable<TEntidade> AdicionarLista(IEnumerable<TEntidade> entidades);
     }
+}

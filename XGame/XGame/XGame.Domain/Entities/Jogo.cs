@@ -4,6 +4,11 @@ namespace XGame.Domain.Entities
 {
     public class Jogo
     {
+        protected Jogo()
+        {
+                
+        }
+
         public Guid Id { get; set; }
 
         public string Nome { get; set; }

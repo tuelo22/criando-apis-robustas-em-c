@@ -4,44 +4,18 @@ using System.Linq;
 using XGame.Domain.Entities;
 using XGame.Domain.Interfaces.Repositories;
 using System.Data.Entity;
+using XGame.Infra.Persistence.Repositories.Base;
 
 namespace XGame.Infra.Persistence.Repositories
 {
-    public class RepositoryJogador : IRepositoryJogador
+    public class RepositoryJogador :RepositoryBase<Jogador, Guid>, IRepositoryJogador
     {
         protected readonly XGameContext _context;
 
         public RepositoryJogador(XGameContext context)
+            : base(context)
         {
             _context = context;
-        }
-
-        public Jogador AdicionarJogador(Jogador jogador)
-        {
-            _context.Jogadores.Add(jogador);
-            _context.SaveChanges();
-
-            return jogador;
-        }
-
-        public void AlterarJogador(Jogador jogador)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Jogador AutenticarJogador(string email, string senha)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Jogador> ListarJogador()
-        {
-            return _context.Jogadores.ToList();
-        }
-
-        public Jogador ObterJogadorPorId(Guid id)
-        {
-            throw new NotImplementedException();
         }
 
         //public int CalculaJogadores()
