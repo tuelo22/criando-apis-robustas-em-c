@@ -118,10 +118,16 @@
     <Compile Include="Migrations\201901101420024_Atualizacao.Designer.cs">
       <DependentUpon>201901101420024_Atualizacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901102028304_IncluindoJogo.cs" />
+    <Compile Include="Migrations\201901102028304_IncluindoJogo.Designer.cs">
+      <DependentUpon>201901102028304_IncluindoJogo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Persistence\Map\MapJogo.cs" />
     <Compile Include="Persistence\Map\MapPlataforma.cs" />
     <Compile Include="Persistence\Map\MapJogador.cs" />
     <Compile Include="Persistence\Repositories\Base\RepositoryBase.cs" />
+    <Compile Include="Persistence\Repositories\RepositoryJogo.cs" />
     <Compile Include="Persistence\Repositories\RepositoryJogador.cs" />
     <Compile Include="Persistence\XGameContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901101420024_Atualizacao.resx">
       <DependentUpon>201901101420024_Atualizacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901102028304_IncluindoJogo.resx">
+      <DependentUpon>201901102028304_IncluindoJogo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

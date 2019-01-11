@@ -17,6 +17,8 @@ namespace XGame.Infra.Persistence
 
         public IDbSet<Plataforma> Plataformas { get; set; }
 
+        public IDbSet<Jogo> Jogos { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             //Seta o Schema default

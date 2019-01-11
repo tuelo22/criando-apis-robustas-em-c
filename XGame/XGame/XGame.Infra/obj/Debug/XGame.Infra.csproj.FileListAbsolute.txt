@@ -1,3 +1,9 @@
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csprojAssemblyReference.cache
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.Inicio.resources
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.MapeandoPlataforma.resources
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.Atualizacao.resources
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csproj.GenerateResource.cache
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csproj.CoreCompileInputs.cache
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\XGame.Infra.dll.config
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\XGame.Infra.dll
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\XGame.Infra.pdb
@@ -28,12 +34,7 @@ C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\Ent
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\EntityFramework.SqlServer.xml
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\bin\Debug\en-US\prmToolkit.NotificationPattern.resources.dll
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csprojAssemblyReference.cache
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.Inicio.resources
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.MapeandoPlataforma.resources
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.Atualizacao.resources
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csproj.GenerateResource.cache
-C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csproj.CoreCompileInputs.cache
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.csproj.CopyComplete
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.dll
 C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.pdb
+C:\projetos\git\criando-apis-robustas-em-c\XGame\XGame\XGame.Infra\obj\Debug\XGame.Infra.Migrations.IncluindoJogo.resources

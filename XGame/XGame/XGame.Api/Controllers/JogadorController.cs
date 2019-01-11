@@ -14,10 +14,29 @@ namespace XGame.Api.Controllers
     {
         private readonly IServiceJogador _serviceJogador;
 
-        public JogadorController(IUnitOfWork unitOfWork,  IServiceJogador serviceJogador)
-            :base(unitOfWork)
+        public JogadorController(IUnitOfWork unitOfWork, IServiceJogador serviceJogador)
+            : base(unitOfWork)
         {
             _serviceJogador = serviceJogador;
+        }
+
+        [Route("Alterar")]
+        [HttpPut]
+        public async Task<HttpResponseMessage> Alterar(AlterarJogadorRequest request)
+        {
+            try
+            {
+                var response = _serviceJogador.AlterarJogador(request);
+
+                return await ResponseAsync(response, _serviceJogador);
+
+            }
+            catch (Exception ex)
+            {
+                return await ResponseExceptionAsync(ex);
+
+
+            }
         }
 
         [Route("Adicionar")]
@@ -58,5 +77,23 @@ namespace XGame.Api.Controllers
             }
         }
 
+        [Route("Excluir")]
+        [HttpDelete]
+        public async Task<HttpResponseMessage> Excluir(Guid id)
+        {
+            try
+            {
+                var response = _serviceJogador.ExcluirJogador(id);
+
+                return await ResponseAsync(response, _serviceJogador);
+
+            }
+            catch (Exception ex)
+            {
+                return await ResponseExceptionAsync(ex);
+
+
+            }
+        }
     }
 }
